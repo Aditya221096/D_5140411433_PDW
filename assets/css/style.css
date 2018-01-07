@@ -1,0 +1,101 @@
+*{
+  padding: 0; margin: 0;
+}
+
+h2{
+  font-family: 'Righteous', cursive;
+}
+p{
+  font-family: 'Voltaire', serif;
+  color: #000000;
+  margin-right: 250px;
+}
+/*small{
+  color: #b69877
+}*/
+small a,
+p a{
+  color: #ddd;
+  text-decoration: none;
+}
+
+/*Header*/
+header{
+  background: #50ad83;
+  padding: 20px 20px;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+}
+header a{
+  color: #000000;
+  text-decoration: none;
+}
+header img{
+  float: left;
+}
+header h1{
+  margin-top: 0px;
+  margin-left: 0px;
+  font-family: 'Righteous',cursive;
+}
+
+/*content*/
+.page{
+  background: url(img/logo.png) right top no-repeat;
+}
+.one{
+  background-color: #095a33;
+}
+.one .page-container{
+  position: absolute;
+  bottom: 90px;
+  margin-left: -650px;
+  left: 50%;
+  margin-bottom: -10px;
+  max-width: 1090px;
+}
+.one .page-container h2{
+  font-size: 3em;
+}
+.one .page-container p{
+  padding: 0px ;
+  line-height: 1.5em;
+}
+.two{
+  background-color: #095a33;
+}
+.two .page-container{
+  position: absolute;
+  bottom: 90px;
+  margin-left: -650px;
+  left: 50%;
+  margin-bottom: -10px;
+  max-width: 1090px;
+}
+.two .page-container h2{
+  font-size: 3em;
+}
+.two .page-container p{
+  padding: 0px ;
+  line-height: 1.5em;
+}
+.three{
+  background-color: #095a33;
+}
+.three .page-container{
+  position: absolute;
+  bottom: 90px;
+  margin-left: -650px;
+  left: 50%;
+  margin-bottom: -10px;
+  max-width: 1090px;
+}
+.three .page-container h2{
+  font-size: 3em;
+}
+.three .page-container p{
+  padding: 0px;
+  line-height: 1.5em;
+}
